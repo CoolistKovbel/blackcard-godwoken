@@ -4,9 +4,9 @@ import { COLOR } from "./variables";
 
 export const Card = styled.div`
   width: 400px;
-  background: white;
+  background: black;
   border-radius: 24px;
-  color: black;
+  color: white;
   padding: 24px;
   margin-bottom: 16px;
   @media (max-width: 600px) {
@@ -22,25 +22,25 @@ export const PageContent = styled.div`
 `;
 export const Text = styled.span`
   font-size: 12px;
-  color: ${COLOR.label};
+  color: #fff;
   overflow-wrap: break-word;
 `;
 export const MainText = styled.span`
   font-size: 14px;
-  color: ${COLOR.primary};
+  color: #fff;
   overflow-wrap: break-word;
 `;
 
 export const PrimaryText = styled.span`
   font-size: 12px;
-  color: ${COLOR.primary};
+  color: #fff;
   overflow-wrap: break-word;
 `;
 
 export const InputCard = styled.div`
   font-size: 14px;
   border-radius: 16px;
-  background-color: #f3f3f3;
+  background-color: #2c3e50;
   box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px;
   padding: 20px 16px;
   .anticon {
@@ -82,7 +82,7 @@ export const PrimaryButton = styled.button`
   width: 100%;
   padding: 0px 24px;
   margin-top: 24px;
-  background-color: ${COLOR.brand};
+  background-color: #1d0436;
   color: white;
   border: 0px;
   border-radius: 8px;
