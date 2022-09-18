@@ -12,7 +12,7 @@
     "build": "lerna run build --stream",
     "clean:apps": "rimraf apps/*/build && rimraf apps/*/dist",
     "clean:packages": "rimraf packages/*/dist && rimraf packages/*/coverage && rimraf packages/*/tsconfig.tsbuildinfo",
-    "lint:fix": "prettier --write '{packages,apps,scripts}/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "prettier --write {packages,apps,scripts}/**/*.{js,jsx,ts,tsx}",
     "versionup": "lerna version --conventional-commits --no-git-tag-version",
     "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
     "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",

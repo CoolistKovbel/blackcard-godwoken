@@ -255,10 +255,10 @@ export default function Deposit() {
     <>
       <Card>
         <WalletConnect></WalletConnect>
-        <div style={{ opacity: lightGodwoken ? "1" : "0.5" }}>
+        <div>
           <CardHeader className="header">
             <Text className="title">
-              <span>Deposit To Layer2</span>
+              <span>Hello Nervos Noble Deposit To Layer2</span>
             </Text>
             <Text className="description">
               To deposit, transfer CKB or supported sUDT tokens to your L1 Wallet Address first

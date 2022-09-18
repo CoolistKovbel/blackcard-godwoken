@@ -15,7 +15,8 @@ const StyledPage = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
-  background: white;
+  background-color: #000;
+  color: #fff
   margin-top: 24px;
   @media (min-width: 600px) {
     display: none;
